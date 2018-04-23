@@ -1,0 +1,51 @@
+/**index.wxss**/
+
+/* 今日课程 */
+/* 顶部 */
+.top{
+  background-color: white;
+  border-bottom: 2rpx solid #eee;
+  margin-top:24rpx;
+  height: 60rpx;
+}
+.navigator{
+  text-align: right; 
+  line-height: 60rpx;
+  font-size: 20rpx;
+  color: #ccc;
+  letter-spacing: 2rpx;
+}
+
+.navigator-hover{
+  color: blue;
+}
+/* 课程item */
+.class_item{
+  background-color: white;
+  border-bottom: 2rpx solid #eee;
+  height: 150rpx;
+  display: flex;
+}
+.class_time{
+  display: inline-block;
+  width: 120rpx;
+  height: 120rpx;
+  background-color: skyblue;
+  border-radius: 25rpx;
+  margin: 16rpx;
+  line-height: 120rpx;
+}
+.info{
+  margin-left: 15rpx;
+  display: inline-block;
+  justify-content: flex-start;
+}
+.info_list1{
+  font-size: 30rpx;
+  margin: 15rpx;
+}
+.info_list2{
+  font-size: 20rpx;
+  margin-bottom: 15rpx;
+  color: #ccc;
+}
